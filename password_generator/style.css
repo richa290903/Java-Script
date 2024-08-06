@@ -1,0 +1,46 @@
+body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color:black;
+  }
+  
+  .container {
+      background-color: yellow;
+      padding: 20px;
+      border-radius: 10px;
+      border: 10px green solid;
+      box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+  }
+  
+  h1 {
+      margin-bottom: 20px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+  }
+  
+  input {
+      padding: 10px;
+      margin-bottom: 20px;
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+
+  #passwordDisplay {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f8f9fa;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      word-wrap: break-word;
+  }
+  
